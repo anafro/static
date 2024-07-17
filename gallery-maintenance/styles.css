@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+:root {
+    --darken-purple: #100b1c;
+    --robust-purple: #18132F;
+    --gentle-purple: #4C2DA6;
+    --lovely-purple: #7D4BF3;
+    --yogurt-purple: #B17BF4;
+}
+
+img {
+    width: 12em;
+}
+
+body {
+    height: 100vh;
+    background: radial-gradient(ellipse farthest-corner at 50% 0%, var(--gentle-purple) 0%, var(--darken-purple) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding-inline: 4em;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 3rem;
+}
